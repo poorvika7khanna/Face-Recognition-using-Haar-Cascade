@@ -22,7 +22,7 @@ def knn(train,test,k=5):
 #############
 cap = cv2.VideoCapture(0)
 
-face_cascade = cv2.CascadeClassifier("C:\\Users\\DELL\\Documents\\haar-cascade-files-master\\haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 
 count = 0
 
